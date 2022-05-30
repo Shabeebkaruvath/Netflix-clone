@@ -1,0 +1,62 @@
+ 
+ .logo{
+     padding: 16px 0px;
+     width: 115px;
+     height: 30px;
+     
+ }
+ .navbar ul{
+     float: right;
+ }
+ .navbar ul{
+    display: flex;
+    list-style: none;
+    margin-right: 1px;
+}
+.navbar{
+    padding: 0px 36.594px;
+    background-color: #000000;
+    height: 65px;
+
+}
+.navbar .navend{
+    padding: 10px 0px;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    line-height: 50px;
+    margin: 0px 8px;
+    background-color:transparent;
+    width: 510px;
+    float: right;
+    margin-right: 10px;
+    
+}
+.jbtn{
+    padding: 10px;
+    background: #e20712;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 0px 10px;
+    width: 105px;
+    cursor: pointer;
+}
+.sbtn{
+    padding: 12px;
+    background: #181818;
+    border: .1px solid white;
+    border-radius: 2px;
+    color: white;
+    margin: 0px 5px;
+    width: 98px;
+    height: 35px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+
+
+
+}
