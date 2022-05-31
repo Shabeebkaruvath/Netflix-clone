@@ -1,6 +1,6 @@
  
  .Banner{
-     background-image:url('https://wallpaperaccess.com/full/698583.png');
+      
      background-size:cover;
      background-repeat: no-repeat;
      height: 600px;
@@ -8,7 +8,7 @@
  }
  .content{
      font-size: 15px; 
-    padding: 78px 0px 0px 65px;
+    padding: 250px 0px 0px 65px;
     max-height:-webkit-fill-available;;
     height: -webkit-fill-available;
     width: 40%;
@@ -27,7 +27,7 @@
 .log{
     width: 450px;
     height: 192px;
-    
+    cursor: pointer;
 }
 span{
     

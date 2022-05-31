@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Poster.css";
 function Poster() {
+
+  
+
   return (
     <div className="row">
       <h2 className="head">Netflix Originals</h2>

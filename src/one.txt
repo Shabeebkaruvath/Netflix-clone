@@ -1,0 +1,5 @@
+api key : 141c72c7acc3ea796e0d0dc48bd8273c
+
+base url : https://api.themoviedb.org/3
+
+imageurl : https://image.tmdb.org/t/p/original
