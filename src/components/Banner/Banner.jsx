@@ -23,7 +23,7 @@ function Banner() {
          
         <h1 className="name1">{movie ? movie.name : ""}</h1>
         <p>
-          <span>Release Date : {movie ? movie.first_air_date :''}</span>
+          <span>IMDB : {movie ? movie.vote_average :''}</span>
         </p>
         <div className="btns">
           <button className="btn">PLAY</button>

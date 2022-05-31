@@ -4,9 +4,15 @@
 }
 
 .poster{
-    max-height: 260px;
+    max-height: 280px;
     margin-right: 25px;
+    max-width: 340px;
    
+}
+.smallposter{
+    max-height: 260px;
+    margin-right: 40px;
+    max-width: 300px;
 }
 
 .posters{
@@ -28,8 +34,13 @@
     margin: 20px 0px 10px 0px;
 }
 .poster:hover{
-     transform:scale(1.2);
+     transform:scale(1.1);
      max-height: 260px;
      margin-right: 30px;
     
+}
+.smallposter:hover{
+    transform:scale(1.1);
+    margin-right: 40px;
+    max-width: 290px;
 }
