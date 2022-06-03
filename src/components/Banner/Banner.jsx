@@ -9,7 +9,7 @@ function Banner() {
   const [movie, setMovie] = useState()
   useEffect(() => {
     axios.get(`trending/tv/week?api_key=${API_KEY}`).then((response)=>{
-      console.log(response.data.results[0])
+      console.log(response.data.results[6])
       setMovie(response.data.results.sort(function (a, b)
        { return 0.5 - Math.random() })[0])
 

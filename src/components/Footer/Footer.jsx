@@ -45,8 +45,14 @@ function Footer() {
         </div>
         <div className="lang">
           <select name="lang" id="cars">
-            <option value="English">English</option>
-            <option value="Hindi">Hindi</option>
+            <option>English</option>
+            <option>Hindi</option>
+            <option>Tamil</option>
+            <option>Bangali</option>
+            <option>Malayalam</option>
+            <option>Telungu</option>
+            <option>Kannada</option>
+
           </select>
         </div>
       </div>

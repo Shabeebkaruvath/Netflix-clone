@@ -46,7 +46,7 @@ h2{
     color: white;
 }
 .lang select:hover{
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 12px;
     border-radius: 3px;
