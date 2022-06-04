@@ -7,13 +7,19 @@
 }
 .inner .inner1{
     padding: 20px 150px 35px 150px;
-    width: 100%;
-     display: flex;
+    display: flex;
 }
-.one  ul li, .two  ul li, .three  ul li , .four ul li{
+.one  ul li, .two  ul li, .three  ul li{
     list-style: none;
     display: grid;
     margin-right: 120px;
+    list-style: none;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.four ul li{
+    list-style: none;
+    display: grid;
     list-style: none;
     margin-top: 18px;
     cursor: pointer;
@@ -36,10 +42,18 @@ h2{
     cursor: pointer;
 }
 
-.one  ul li:hover, .two  ul li:hover, .three  ul li:hover , .four ul li:hover{
+.one  ul li:hover, .two  ul li:hover, .three  ul li:hover{
     list-style: none;
     display: grid;
     margin-right: 120px;
+    list-style: none;
+    margin-top: 18px;
+    cursor: pointer;
+    color: white;
+}
+.four ul li:hover{
+    list-style: none;
+    display: grid;
     list-style: none;
     margin-top: 18px;
     cursor: pointer;
