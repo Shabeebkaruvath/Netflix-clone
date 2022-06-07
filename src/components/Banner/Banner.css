@@ -1,149 +1,178 @@
- 
- .Banner{
-      
-     background-size:cover;
-     background-repeat: no-repeat;
-     height: 600px;
-     color: white;
- }
- .content{
-    font-size: 15px; 
-    padding: 200px 0px 0px 65px;
-    max-height:-webkit-fill-available;;
+.Banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  color: white;
+}
+.content {
+  font-size: 15px;
+  padding: 200px 0px 0px 65px;
+  max-height: -webkit-fill-available;
+  height: -webkit-fill-available;
+  width: 40%;
+  max-width: 35%;
+  background-image: linear-gradient(to left, transparent 1%, #181818 35%);
+}
+.dics1,
+.disc2 {
+  color: white;
+  margin-top: 20px;
+}
+.name1 {
+  margin-top: 10px;
+  font-size: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 16px;
+}
+.log {
+  width: 450px;
+  height: 192px;
+  cursor: pointer;
+}
+span {
+  color: #a3a3a3;
+}
+.btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: #fff;
+  padding: 7px;
+  margin-right: 4px;
+  border: none;
+  height: 33px;
+  width: 75px;
+  border-radius: 3px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.dicsd {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.btn:hover {
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: #f11a1a;
+  color: #fff;
+  padding: 7px;
+  margin-right: 4px;
+  border: none;
+  height: 33px;
+  width: 75px;
+  border-radius: 3px;
+}
+@media (max-width: 768px) {
+  /* for tablet */
+  .content {
+    font-size: 15px;
+    padding: 80px 0px 0px 65px;
+    max-height: -webkit-fill-available;
     height: -webkit-fill-available;
     width: 40%;
     max-width: 35%;
-    background-image: linear-gradient(to left,transparent 1%, #181818 35%);
+    background-image: linear-gradient(to left, transparent 1%, #181818 55%);
+  }
+  .Banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: white;
+  }
+  .dicsd {
+    font-size: small;
+  }
 }
-.dics1,.disc2{
-     color: white;
-     margin-top: 20px;
-}
-.name1{
-    margin-top: 10px;
-    font-size: 24px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-bottom: 16px;}
-.log{
-    width: 450px;
-    height: 192px;
-    cursor: pointer;
-}
-span{
-    
-    color:#a3a3a3;    
-}
-.btn{
-    margin-top: 20px;
-    margin-bottom: 20px;;
-    background-color: transparent;
-    color: #fff;
-    padding: 7px;
-    margin-right: 4px;
-    border: none;
-    height: 33px;
-    width: 75px;
-    border-radius: 3px;
-    border: 1px solid rgb(255, 255, 255);
-}
-.dicsd{
-    font-size: 16px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.btn:hover{
-    cursor: pointer;
-    margin-top: 8px;
-    margin-bottom: 8px;;
-    background-color: #f11a1a;
-    color: #fff;
-    padding: 7px;
-    margin-right: 4px;
-    border: none;
-    height: 33px;
-    width: 75px;
-    border-radius: 3px;
-    
-}
-@media (max-width:768px){
-    /* for tablet */
-    .content{
-        font-size: 15px; 
-        padding: 100px 0px 0px 65px;
-        max-height:-webkit-fill-available;;
-        height: -webkit-fill-available;
-        width: 40%;
-        max-width: 35%;
-        background-image: linear-gradient(to left,transparent 1%, #181818 55%);
-    }
-    .Banner{
-        background-size:cover;
-        background-repeat: no-repeat;
-        height: 500px;
-        color: white;
-    }
-}
-@media (max-width:425px){
- .Banner{
-     background-size:cover;
-     background-repeat: no-repeat;
-     height: 400px;
-     color: white;
- }
- .content{
-    font-size: 15px; 
-    padding: 30px 0px 0px 30px;
-    max-height:-webkit-fill-available;;
+@media (max-width: 425px) {
+  .Banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: white;
+  }
+  .content {
+    font-size: 15px;
+    padding: 25px 0px 0px 30px;
+    max-height: -webkit-fill-available;
     height: -webkit-fill-available;
-    max-height: -webkit-fill-available;;
+    max-height: -webkit-fill-available;
     width: 40%;
     max-width: 40%;
-    background-image: linear-gradient(to left,transparent , #181818 65%);
-}
-.disc1{
-    font-size: 12px;
-}
-.btns .btn{
-    padding: 5px;
-    height: 25px;
-    width: 54px;
+    background-image: linear-gradient(to left, transparent, #181818 65%);
+  }
+  .disc1 {
+    font-size: 10px;
+  }
+  .disc2,
+  .disc3 {
+    display: none;
+  }
+
+  .btns .btn {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 4px;
+    height: 20px;
+    width: 47px;
     border-radius: 3px;
     border: 1px solid rgb(255, 255, 255);
-    font-size: 10px;
-}
-.name1{
+    font-size: 9px;
+  }
+  .name1 {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 20px;
+  }
+  .dicsd {
+    font-size: 10px;
+  }
+  span {
+    font-size: 9px;
+    padding: 0px;
+    color: #a3a3a3;
+  }
 }
 
-}
+@media (max-width: 375px) {
+  .Banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 230px;
+    color: white;
+  }
+  .disc1 {
+    font-size: 8px;
+  }
+  .content {
+    font-size: 15px;
+    padding: 20px 0px 0px 20px;
+    max-height: -webkit-fill-available;
+    height: -webkit-fill-available;
+    max-height: -webkit-fill-available;
 
-
-
-
-
-@media (max-width:375px){
-    .disc1{
-        font-size: 11px;
-    }
-    .content{
-        font-size: 15px; 
-        padding: 30px 0px 0px 20px;
-        max-height:-webkit-fill-available;;
-        height: -webkit-fill-available;
-        max-height: -webkit-fill-available;
-        text-align:justify ;
-        width: 40%;
-        max-width: 40%;
-        background-image: linear-gradient(to left,transparent , #181818 65%);
-    }
-    .btns .btn{
-        padding: 5px;
-        height: 25px;
-        width: 54px;
-        border-radius: 3px;
-        border: 1px solid rgb(255, 255, 255);
-        font-size: 10px;
-    }
-    .name1{
-        font-size: 18px;
-    }
+    width: 40%;
+    max-width: 40%;
+    background-image: linear-gradient(to left, transparent, #181818 65%);
+  }
+  .btns .btn {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 0px;
+    height: 20px;
+    width: 41px;
+    border-radius: 3px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 8px;
+  }
+  .name1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 14px;
+  }
+  .disc2,
+  .disc3 {
+    display: none;
+  }
 }
