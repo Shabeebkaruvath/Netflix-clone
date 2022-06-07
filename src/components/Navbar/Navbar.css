@@ -1,12 +1,9 @@
  
  .logo{
      padding: 16px 0px;
-     width: 115px;
+     
      height: 30px;
      
- }
- .navbar ul{
-     float: right;
  }
  .navbar ul{
     display: flex;
@@ -29,7 +26,7 @@
     line-height: 50px;
     margin: 0px 8px;
     background-color:transparent;
-    width: 510px;
+     
     float: right;
     margin-right: 10px;
     
@@ -59,4 +56,46 @@
 
 
 
+}
+@media(max-width:768px){
+    .sbtn{
+        display: none;
+    }
+    .navend p{
+        display: none;
+    }
+    .navbar{
+        padding: 0px 25px;
+        background-color: #000000;
+        height: 65px;
+    
+    }
+    .jbtn {
+        padding: 10px;
+        background: #e20712;
+        border: none;
+        border-radius: 3px;
+        color: white;
+        margin: 4px 0px;
+        width: 105px;
+        cursor: pointer;
+    }
+}
+@media (max-width:375px){
+    .navbar{
+        padding: 0px 15px;
+        background-color: #000000;
+        height: 60px;
+    
+    }
+    .jbtn{
+        padding: 8px;
+        background: #e20712;
+        border: none;
+        border-radius: 3px;
+        color: white;
+        margin: 4px 0px;
+        width: 87px;
+        cursor: pointer;
+    }
 }

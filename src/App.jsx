@@ -16,7 +16,7 @@ function App() {
       <Poster isSmall title='Horror' url='discover/movie?api_key=141c72c7acc3ea796e0d0dc48bd8273c&with_genres=27'/>
       <Poster isSmall title='Romance' url='discover/movie?api_key=141c72c7acc3ea796e0d0dc48bd8273c&with_genres=10749'/>
       <Poster isSmall title='Documentaries' url='discover/movie?api_key=141c72c7acc3ea796e0d0dc48bd8273c&with_genres=99'/>
-      <Footer/>
+     
        
     </div>
   );
