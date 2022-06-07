@@ -44,3 +44,45 @@
     margin-right: 40px;
     max-width: 290px;
 }
+@media (max-width:425px){
+    .poster{
+        max-height: 280px;
+        margin-right: 25px;
+        max-width: 300px;
+       
+    }
+    .smallposter{
+        max-height: 260px;
+        margin-right: 40px;
+        max-width: 260px;
+    }
+    
+}
+@media (max-width:375px){
+    .poster{
+        max-height: 280px;
+        margin-right: 25px;
+        max-width: 280px;
+       
+    }
+    .smallposter{
+        max-height: 260px;
+        margin-right: 40px;
+        max-width: 240px;
+    }
+    
+}
+@media (max-width:320px){
+    .poster{
+        max-height: 280px;
+        margin-right: 25px;
+        max-width: 260px;
+       
+    }
+    .smallposter{
+        max-height: 260px;
+        margin-right: 40px;
+        max-width: 220px;
+    }
+    
+}
