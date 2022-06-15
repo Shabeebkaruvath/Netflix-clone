@@ -1,2 +1,2 @@
 # Netflix-clone
-Netflix clone using React &amp; Django
+Netflix clone using Reactjs
